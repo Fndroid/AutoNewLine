@@ -10,7 +10,7 @@
 
 ### 安装
 
-打开**SublineText3->Preferences->Browse Packages**，将1下载的文件夹复制进去即可。
+打开**SublineText3->Preferences->Browse Packages**，将下载的文件夹复制进去即可。
 
 ### 设置
 
