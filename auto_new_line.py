@@ -12,7 +12,7 @@ class AutoNewLineCommand(sublime_plugin.TextCommand):
 			line = self.view.line(region)
 			line_content = self.view.substr(line)
 			dis = 0
-			if ';' not in line_content and file_name.split('.')[-1] not in ignore_subfix and line_content:
+			if line_content and ';' not in line_content and file_name.split('.')[-1] not in ignore_subfix:
 				self.view.insert(edit, line.b, ';')
 				dis = 1
 			self.view.sel().clear()
