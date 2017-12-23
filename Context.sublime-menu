@@ -1,0 +1,17 @@
+[{
+  "caption": "自动换行",
+  "children": [{
+    "caption": "结束当前行",
+    "command": "auto_new_line"
+  }, {
+  	"caption": "-"
+  }, {
+  	"caption": "插件设置",
+  	"command": "auto_new_line_setting_options"
+  }, {
+  	"caption": "-"
+  }, {
+  	"caption": "快捷键设置",
+  	"command": "auto_new_line_keymap_options"
+  }]
+}]
