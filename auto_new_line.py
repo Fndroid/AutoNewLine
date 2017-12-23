@@ -10,7 +10,7 @@ class AutoNewLineCommand(sublime_plugin.TextCommand):
 		file_name = self.view.file_name().split('\\')[-1]
 		for region in self.view.sel():
 			line = self.view.line(region)
-			line_content = self.view.substr(line)
+			line_content = self.view.substr(line).strip()
 			dis = 0
 			if line_content and line_content[-1] not in [';', '{', '}'] and file_name.split('.')[-1] not in ignore_subfix:
 				self.view.insert(edit, line.b, ';')
