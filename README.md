@@ -10,7 +10,7 @@
 
 ### 安装
 
-打开**SublineText3->Preferences->Browse Packages**，将1下载的文件夹复制进去即可。
+打开**SublineText3->Preferences->Browse Packages**，将下载的文件夹复制进去即可。
 
 ### 设置
 
@@ -22,4 +22,18 @@
 
 ## BUG
 
-快捷键暂时只适配了Windows的，其他两个平台，可以自己设置一下（。。。偷懒）。
+1.快捷键暂时只适配了Windows的，其他两个平台，可以自己设置一下（。。。偷懒）。
+
+2.关于中括号：
+```java
+// 对如下写法不友好：
+While(true)
+{
+  xxx
+}
+
+// 而采用
+While(true){
+  xxx
+}
+```
